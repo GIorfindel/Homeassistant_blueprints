@@ -177,8 +177,6 @@ action:
                 - condition: trigger
                   id:
                     - Team Score Change
-                - condition: numeric_state
-                  entity_id: !input my_sensor
               sequence:
                 - service: mqtt.publish
                   data:
@@ -196,8 +194,6 @@ action:
                 - condition: trigger
                   id:
                     - Opponent Score Change
-                - condition: numeric_state
-                  entity_id: !input my_sensor
               sequence:
                 - service: mqtt.publish
                   data:
