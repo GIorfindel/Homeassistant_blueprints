@@ -122,8 +122,8 @@ variables:
         {"dl":[3,0,3,7,"{{ team_colors_1 }}"]},
         {"dl":[28,0,28,7,"{{ opponent_colors_1 }}"]}, 
         {"dl":[30,0,30,7,"{{ opponent_colors_1 }}"]}, 
-        {"dt":[7, 1, "{{ team_score }}",[255,255,255]]}, 
-        {"dt":[18, 1, "{{ opponent_score }}",[255,255,255]]}, 
+        {"dt":[7, 1, "{{ team_score }}","{{ team_colors_1 }}"]},
+        {"dt":[18, 1, "{{ opponent_score }}","{{ opponent_colors_1 }}"]},
         {"dl":[15,3,16,3,"#ffffff"]} 
       ], 
       "duration": 15 
